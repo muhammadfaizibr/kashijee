@@ -1,0 +1,96 @@
+/* ############# RESPONSIVE CODES ############# */
+
+/* ############# @920px ############# */
+@media(max-width: 62em){
+    /* ############# NAV ############# */
+    nav{
+        z-index: 998;
+    }
+
+    /* ############# .NAV-PRIMARY-MENU ############# */
+    .nav-primary-menu{
+        flex-direction: column;
+        /* display: none; */
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(20, 20, 20, .99);
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateX(-100%);
+        transition: all .2s linear;
+        pointer-events: none;
+    }
+
+    /* ############# .NAV-PRIMARY-MENU > LI ############# */
+    .nav-primary-menu li{
+        margin: 15px 0;
+    }
+
+    /* ############# .NAV-PRIMARY-MENU > LI > A ############# */
+    .nav-primary-menu li a{
+        font-size: 2rem;
+        color: var(--golden);
+        font-weight: lighter;
+    }
+
+    /* ############# .NAV-PRIMARY-MENU > LI > A.ACTIVE############# */
+    .nav-primary-menu li a.active{
+        border-color: var(--golden);
+    }
+
+    /* ############# .MOBILE-NAV-BTN ############# */
+    .mobile-nav-btn{
+        display: block;
+        z-index: 999;
+        width: 300px;
+    }
+    
+    /* ############# .MOBILE-NAV-BTN > I ############# */
+    .mobile-nav-btn i{
+        color: var(--darkgray);
+    }
+
+    /* ############# (WHEN) .MOBILE-NAV-ACTIVE | (DO CHANGES IN) NAV ############# */
+   .mob-nav-active nav{
+        position: fixed;
+    }
+
+    /* ############# (WHEN) .MOBILE-NAV-ACTIVE | (DO CHANGES IN) .MOBLIE-NAV-BTN ############# */
+    .mob-nav-active .mobile-nav-btn{
+        transition: .9s;
+        width: 10px;
+    }
+
+    /* ############# (WHEN) .MOBILE-NAV-ACTIVE | (DO CHANGES IN) .MOBLIE-NAV-BTN > I ############# */
+    .mob-nav-active .mobile-nav-btn i{
+        color: var(--golden);
+    }
+
+    /* ############# (WHEN) .MOBILE-NAV-ACTIVE | (DO CHANGES IN) .MOBLIE-NAV-ICON[name="mobile-nav-close"] ############# */
+    .mob-nav-active .mobile-nav-icon[name="mobile-nav-close"]{
+        display: block;
+    }
+    /* ############# (WHEN) .MOBILE-NAV-ACTIVE | (DO CHANGES IN) .MOBLIE-NAV-ICON[name="mobile-nav-hamburger"] ############# */
+    .mob-nav-active .mobile-nav-icon[name="mobile-nav-hamburger"]{
+        display: none;
+    }
+
+    /* ############# (WHEN) .MOBILE-NAV-ACTIVE | (DO CHANGES IN) .MOBLIE-NAV-ICON[name="mobile-nav-hamburger"] ############# */
+    .mob-nav-active .nav-primary-menu{
+        transform: translateX(0%);
+        opacity: 1;
+        transition: all .2s linear;
+        visibility: visible;
+        pointer-events: auto;
+    }
+}
+
+/* ############# NAV ############# */
+@media(max-width: 450px){
+    nav{
+        padding: 0px 15px;
+    }
+}

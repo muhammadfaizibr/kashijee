@@ -1,0 +1,249 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #################### LINKING FONTS CSS #################### -->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <!-- #################### LINKING PRELOADER CSS #################### -->
+    <link rel="stylesheet" href="../css/preloader.css">
+    <!-- #################### LINKING GLOBAL CSS #################### -->
+    <link rel="stylesheet" href="../css/global.css">
+    <!-- #################### LINKING GLOBAL CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/global-responsive.css">
+    <!-- #################### LINKING NAV-RESPONSIVE CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/nav-responsive.css">
+    <!-- #################### LINKING PRODUCT-DETAILS-STYLE CSS #################### -->
+    <link rel="stylesheet" href="../css/cart-style.css">
+    <!-- #################### LINKING PRODUCT-DETAILS-RESPONSIVE CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/cart-responsive.css"> 
+    <!-- #################### FONT AWESOME CDN #################### -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- #################### AOS ON SCROLL CDN #################### -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Product Details - KashiJee</title>
+</head>
+<body>
+    <!-- #################### PRELOADER #################### -->
+    <div class="preloader">
+        <div class="preloader-text"> KJ
+        </div>
+    </div>
+    <!-- #################### SEARCH-OUTSIDE-BAR #################### -->
+    <div class="search-outside-container ">
+        <!-- #################### SEARCH-BAR #################### -->
+        <div class="search-bar">
+            <form action="" id="search-form" autocomplete="off">
+                <input type="text" class="input-search-bar" name="search" placeholder="Search">
+            </form>
+            <i class="fa-solid fa-close search-close-btn" id="search-close"></i>
+        </div>
+    </div>
+    <!-- #################### HEADER #################### -->
+    <header class="header">
+        <!-- #################### NAVBAR #################### -->
+        <nav class="nav" data-aos="fade-up" data-aos-duration="500">
+            <!-- #################### PRIMARY-NAVIGATION #################### -->
+            <div class="mobile-nav-btn">
+                <i name="mobile-nav-hamburger" class="fa-solid fa-bars-staggered mobile-nav-icon nav-font-style nav-shop-font-color"></i>
+                <i name="mobile-nav-close" class="fa-solid fa-angle-left mobile-nav-icon nav-font-style nav-shop-font-color"></i>
+            </div>
+            <ul class="nav-primary-menu">
+                <li><a class="nav-font-style nav-shop-font-color active" href="/html/home.html">Home</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/shop.html">Shop</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/collections.html">About</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/collections.html">Contact</a></li>
+            </ul>
+            <!-- #################### LOGO #################### -->
+            <h1 class="logo cart-logo-color">KJ</h1>
+            <!-- #################### SECONDARY-NAVIGATION #################### -->
+            <ul class="nav-search-cart-icons">
+                <li><a class="nav-font-style nav-shop-font-color" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a class="nav-font-style nav-shop-font-color"><i class="fa-solid fa-magnifying-glass" id="search-btn"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- #################### CART #################### -->
+    <section class="container cart">
+        <ul>
+            <h1 class="golden-heading">Cart</h1>
+            
+            <li data-aos="flip-left" data-aos-offset="40">
+                <div class="cart-product-image"><div class="cart-image-container"><img src="../images/shop-men-collection.jpg" alt=""></div></div>
+
+                <div class="cart-product-name">Blue & White Classic Design T-shirt</div>
+
+                <div class="product-quantity">
+                    <div class="quantity-options">
+                        <div class="decrease-quantity quantity-option"><i class="fa-solid fa-minus"></i></div> 
+                        <div class="current-quantities quantity-option">1</div>
+                        <div class="increase-quantity quantity-option"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="cart-product-price">PKR 550.0</div>
+
+                <div class="cart-product-delete"><i class="fa-solid fa-trash-can"></i></div>
+            </li>
+            <li data-aos="flip-left" data-aos-offset="40">
+                <div class="cart-product-image"><div class="cart-image-container"><img src="../images/shop-men-collection.jpg" alt=""></div></div>
+
+                <div class="cart-product-name">Blue & White Classic Design T-shirt</div>
+
+                <div class="product-quantity">
+                    <div class="quantity-options">
+                        <div class="decrease-quantity quantity-option"><i class="fa-solid fa-minus"></i></div> 
+                        <div class="current-quantities quantity-option">1</div>
+                        <div class="increase-quantity quantity-option"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="cart-product-price">PKR 550.0</div>
+
+                <div class="cart-product-delete"><i class="fa-solid fa-trash-can"></i></div>
+            </li>
+            <li data-aos="flip-left" data-aos-offset="40">
+                <div class="cart-product-image"><div class="cart-image-container"><img src="../images/shop-men-collection.jpg" alt=""></div></div>
+
+                <div class="cart-product-name">Blue & White Classic Design T-shirt</div>
+
+                <div class="product-quantity">
+                    <div class="quantity-options">
+                        <div class="decrease-quantity quantity-option"><i class="fa-solid fa-minus"></i></div> 
+                        <div class="current-quantities quantity-option">1</div>
+                        <div class="increase-quantity quantity-option"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="cart-product-price">PKR 550.0</div>
+
+                <div class="cart-product-delete"><i class="fa-solid fa-trash-can"></i></div>
+            </li>
+            <li data-aos="flip-left" data-aos-offset="40">
+                <div class="cart-product-image"><div class="cart-image-container"><img src="../images/shop-men-collection.jpg" alt=""></div></div>
+
+                <div class="cart-product-name">Blue & White Classic Design T-shirt</div>
+
+                <div class="product-quantity">
+                    <div class="quantity-options">
+                        <div class="decrease-quantity quantity-option"><i class="fa-solid fa-minus"></i></div> 
+                        <div class="current-quantities quantity-option">1</div>
+                        <div class="increase-quantity quantity-option"><i class="fa-solid fa-plus"></i></div>
+                    </div>
+                </div>
+
+                <div class="cart-product-price">PKR 550.0</div>
+
+                <div class="cart-product-delete"><i class="fa-solid fa-trash-can"></i></div>
+            </li>
+            <div class="total" data-aos="flip-left" data-aos-offset="40">
+                <h1 class="golden-heading">Total Items: 4</h1>
+                <h1 class="golden-heading">Total Quantities: 12</h1>
+                <h1 class="golden-heading">Total Price: 200.00 PKR</h1>
+            </div>
+            <div class="cart-buttons" >
+                <a class="secondary-button clear-cart-btn" href="" data-aos="fade-zoom-in" data-aos-offset="40">Clear Cart</a>
+                <a class="primary-button checkout-btn" href="" data-aos="fade-zoom-in" data-aos-offset="40">Checkout</a>
+            </div>
+        </ul>
+    </section>
+
+    <!-- #################### YOU-MAY-ALSO-LIKE #################### -->
+    <section class="container products-container you-may-also-like">
+        <h1 class="light-heading" data-aos="fade-right"  data-aos-duration="500">You May ALso Like</h1>
+        <div class="products">
+            <div class="product product-dark" data-aos="zoom-in"  data-aos-duration="500">
+                <div class="product-image">
+                    <a href=""><img src="https://pngimg.com/uploads/tshirt/tshirt_PNG5445.png" alt=""></a>
+                </div>
+                <div class="product-info">
+                    <a href=""><i class="fa-regular fa-heart icon-light"></i></a>
+                    <p class="price-text-style-light">PKR 89.00</p>
+                    <a href=""><i class="fa-solid fa-cart-plus icon-light"></i></a>
+                </div>
+            </div>
+            <div class="product product-dark" data-aos="zoom-in"  data-aos-duration="500">
+                <div class="product-image">
+                    <a href=""><img src="https://pngimg.com/uploads/tshirt/tshirt_PNG5445.png" alt=""></a>
+                </div>
+                <div class="product-info">
+                    <a href=""><i class="fa-regular fa-heart icon-light"></i></a>
+                    <p class="price-text-style-light">PKR 89.00</p>
+                    <a href=""><i class="fa-solid fa-cart-plus icon-light"></i></a>
+                </div>
+            </div>
+            <div class="product product-dark" data-aos="zoom-in"  data-aos-duration="500">
+                <div class="product-image">
+                    <a href=""><img src="https://pngimg.com/uploads/tshirt/tshirt_PNG5445.png" alt=""></a>
+                </div>
+                <div class="product-info">
+                    <a href=""><i class="fa-regular fa-heart icon-light"></i></a>
+                    <p class="price-text-style-light">PKR 89.00</p>
+                    <a href=""><i class="fa-solid fa-cart-plus icon-light"></i></a>
+                </div>
+            </div>
+            <div class="product product-dark" data-aos="zoom-in"  data-aos-duration="500">
+                <div class="product-image">
+                    <a href=""><img src="https://pngimg.com/uploads/tshirt/tshirt_PNG5445.png" alt=""></a>
+                </div>
+                <div class="product-info">
+                    <a href=""><i class="fa-regular fa-heart icon-light"></i></a>
+                    <p class="price-text-style-light">PKR 89.00</p>
+                    <a href=""><i class="fa-solid fa-cart-plus icon-light"></i></a>
+                </div>
+            </div>
+            <div class="product product-dark" data-aos="zoom-in"  data-aos-duration="500">
+                <div class="product-image">
+                    <a href=""><img src="https://pngimg.com/uploads/tshirt/tshirt_PNG5445.png" alt=""></a>
+                </div>
+                <div class="product-info">
+                    <a href=""><i class="fa-regular fa-heart icon-light"></i></a>
+                    <p class="price-text-style-light">PKR 89.00</p>
+                    <a href=""><i class="fa-solid fa-cart-plus icon-light"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="" class="view-all"  data-aos="zoom-in"><p class="p-light">View More</p> 
+            <i class="fa-solid fa-right-long icon-light"></i></a>
+    </section>
+
+    <!-- #################### NEWSLETTER #################### -->
+    <section class="newsletter" data-aos="fade-zoom-in" data-aos-duration="500">
+        <h1 class="newsletter-heading" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="80">Subscribe to our newsletter</h1>
+        <p class="newsletter-slogan" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="80">To get notify about our new collections.</p>
+        <form action="" class="newsletter-form" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="40">
+            <input type="email" name="" placeholder="Enter your email" id="" class="newsletter-input">
+            <i class="fa-solid fa-paper-plane icon-white newsletter-send-btn"></i>
+        </form>
+    </section>
+
+    <!-- #################### FOOTER #################### -->
+    <footer>
+        <div class="footer-icons" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="140">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="footer-menu" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="80">
+            <a href="">Shop</a>
+            <a href="">Contact</a>
+            <a href="">Sale</a>
+            <a href="">Refund</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+        </div>
+        <div class="footer-copyright" data-aos="fade-zoom-in" data-aos-duration="00" data-aos-offset="50">
+            <p class="copyright">© 2022, KASHIJEE</p>
+        </div>
+    </footer>
+    <!-- #################### JAVASCRIPT #################### -->
+    <script src="../js/nav.js"></script>
+    <!-- #################### AOS CDN #################### -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- #################### INCLUDING AOS #################### -->
+    <script src="../js/including_aos.js"></script>
+    <!-- #################### PRELOADER JS #################### -->
+    <script src="../js/preloader.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+@media(max-width: 895px){
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES ############# */
+    section.container .product-primary-details .product-images{
+        width: 330px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 370px;
+    }
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+    section.container .product-primary-details .product-images .other-images .other-image{
+        width: 27%;
+        height: 70px;
+    }
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS ############# */
+    section.container .product-primary-details .product-details{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 776px){
+    nav h1.logo{
+        color: var(--light);
+    }
+    
+    /* ############# SECTION.CONTAINER.SHOP-PRODUCT ############# */
+    section.container.shop-product{
+        background: linear-gradient(360deg, var(--golden) 73%, var(--darkgray) 73%);
+    }    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS ############# */
+    section.container .product-primary-details{
+        flex-direction: column;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS ############# */
+    section.container .product-primary-details .product-details{
+        margin-left: 0px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES ############# */
+    section.container .product-primary-details .product-images{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 490px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+    section.container .product-primary-details .product-images .other-images .other-image{
+        width: 23%;
+        height: 90px;
+    }
+
+}
+
+@media (max-width: 650px){
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 450px;
+    }
+
+
+}
+
+@media (max-width: 650px){
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 440px;
+    }
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+    section.container .product-primary-details .product-images .other-images .other-image{
+        width: 20%;
+        height: 70px;
+    }
+}
+
+@media (max-width: 550px){
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 410px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+    section.container .product-primary-details .product-images .other-images .other-image{
+        width: 20%;
+        height: 70px;
+    }
+
+}
+
+@media (max-width: 550px){
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images{
+        margin-bottom: 35px;
+        width: 90%;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+    section.container .product-primary-details .product-images .other-images .other-image{
+        width: 25%;
+        height: 70px;
+    }
+
+}
+
+@media (max-width: 460px){
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images{
+        margin-bottom: 25px;
+        width: 95%;
+    }
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 380px;
+    }
+}
+
+@media (max-width: 400px){
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 330px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-SIZE > .SIZE-CONTAINER ############# */
+    section.container .product-primary-details .product-details .product-size .size-container{
+        margin: 5px 5px;
+    }
+}
+
+@media (max-width: 350px){
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+    section.container .product-primary-details .product-images .primary-product-image{
+        height: 310px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+    section.container .product-primary-details .product-images .other-images .other-image{
+        width: 25%;
+        height: 60px;
+    }
+
+}

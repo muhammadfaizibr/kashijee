@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #################### LINKING FONTS CSS #################### -->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <!-- #################### LINKING PRELOADER CSS #################### -->
+    <link rel="stylesheet" href="../css/preloader.css">
+    <!-- #################### LINKING GLOBAL CSS #################### -->
+    <link rel="stylesheet" href="../css/global.css">
+    <!-- #################### LINKING GLOBAL CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/global-responsive.css">
+    <!-- #################### LINKING NAV-RESPONSIVE CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/nav-responsive.css">
+    <!-- #################### LINKING HOME-STYLE CSS #################### -->
+    <link rel="stylesheet" href="../css/shop-style.css">
+    <!-- #################### LINKING HOME-RESPONSIVE CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/shop-responsive.css"> 
+    <!-- #################### FONT AWESOME CDN #################### -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- #################### AOS ON SCROLL CDN #################### -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Shop - KashiJee</title>
+</head>
+<body>
+    <!-- #################### PRELOADER #################### -->
+    <div class="preloader">
+        <div class="preloader-text"> KJ
+        </div>
+    </div>
+    <!-- #################### SEARCH-OUTSIDE-BAR #################### -->
+    <div class="search-outside-container">
+        <!-- #################### SEARCH-BAR #################### -->
+        <div class="search-bar">
+            <form action="" id="search-form" autocomplete="off">
+                <input type="text" class="input-search-bar" name="search" placeholder="Search">
+            </form>
+            <i class="fa-solid fa-close search-close-btn" id="search-close"></i>
+        </div>
+    </div>
+    <!-- #################### HEADER #################### -->
+    <header class="header">
+        <!-- #################### NAVBAR #################### -->
+        <nav class="nav" data-aos="fade-up" data-aos-duration="500">
+            <!-- #################### PRIMARY-NAVIGATION #################### -->
+            <div class="mobile-nav-btn">
+                <i name="mobile-nav-hamburger" class="fa-solid fa-bars-staggered mobile-nav-icon nav-font-style nav-shop-font-color"></i>
+                <i name="mobile-nav-close" class="fa-solid fa-angle-left mobile-nav-icon nav-font-style"></i>
+            </div>
+            <ul class="nav-primary-menu">
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/home.html">Home</a></li>
+                <li><a class="nav-font-style nav-shop-font-color active" href="/html/shop.html">Shop</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/collections.html">About</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/collections.html">Contact</a></li>
+            </ul>
+            <!-- #################### LOGO #################### -->
+            <h1 class="logo shop-logo-color">KJ</h1>
+            <!-- #################### SECONDARY-NAVIGATION #################### -->
+            <ul class="nav-search-cart-icons">
+                <li><a class="nav-font-style nav-shop-font-color" href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a class="nav-font-style nav-shop-font-color"><i class="fa-solid fa-magnifying-glass" id="search-btn"></i></a></li>
+            </ul>
+        </nav>
+        <div class="collections">
+            <div class="collection" data-aos="fade-zoom-in" data-aos-duration="1000" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.9) 100%), url('../images/shop-men-collection.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;"><span>MENS</span>COLLECTION</div>
+            <div class="collection" data-aos="fade-zoom-in" data-aos-duration="1000" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.9) 100%), url('../images/shop-men-collection.jpg'); background-size: cover; background-position: center center; background-repeat: no-repeat;"><span>BELTS</span>COLLECTION</div>
+        </div>
+    </header>
+
+    <!-- #################### FOOTER #################### -->
+    <footer>
+        <div class="footer-icons" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="140">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="footer-menu"  data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="80">
+            <a href="">Shop</a>
+            <a href="">Contact</a>
+            <a href="">Sale</a>
+            <a href="">Refund</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+        </div>
+        <div class="footer-copyright" data-aos="fade-zoom-in" data-aos-duration="00" data-aos-offset="50">
+            <p class="copyright">© 2022, KASHIJEE</p>
+        </div>
+    </footer>
+    <!-- #################### JAVASCRIPT #################### -->
+    <script src="../js/nav.js"></script>
+    <!-- #################### AOS CDN #################### -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- #################### INCLUDING AOS #################### -->
+    <script src="../js/including_aos.js"></script>
+    <!-- #################### PRELOADER JS #################### -->
+    <script src="../js/preloader.js"></script>
+</body>
+</html>

@@ -1,0 +1,644 @@
+/* ############# VARIABLES ############# */
+:root {
+    --golden: #FD9A01;
+    --darkgray: #141414;
+    --light: #eee;
+  }
+
+/* ############# RESETING DEFAULT MARGIN AND PADDING ############# */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ############# BODY ############# */
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(242.19deg, #252525 52.02%, var(--darkgray) 91.34%);
+}
+
+/* ############# CHANGING REM BASE FONT SIZE ############# */
+html{
+    font-size: 10px;
+}
+
+/* ############# ::SELECTION ############# */
+::selection {
+    background-color: var(--golden);
+    color: var(--darkgray);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: var(--darkgray);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(105, 105, 105);
+}
+
+/* ############# CHANGING PLACEHOLDER COLOR ############# */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(255, 255, 255);
+}
+
+/* ############# .SEARCH-OUTSIDE-CONTAINER ############# */
+.search-outside-container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    visibility: hidden;
+    z-index: 10001;
+}
+/* ############# #SEARCH-FORM ############# */
+#search-form{
+    width: 70%;
+}
+
+/* ############# .SEARCH-BAR ############# */
+.search-bar{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1001;
+    background-color: rgba(20, 20, 20, .99);
+    height: 200px;
+    position: fixed;
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: all .2s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ############# .SEARCH-BAR-ACTIVE ############# */
+.search-bar-active{
+    transform: translateY(0%);
+    transition: all .2s linear;
+    visibility: visible;
+}
+
+/* ############# .INPUT-SEARCH-BAR ############# */
+.input-search-bar {
+    font-size: 1.4rem;
+    color: #ffffff;
+    padding: 10px 5px; 
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+.search-close-btn{
+    margin: 0 15px;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* ############# HEADER > NAV > .NAV-SHOP-FONT-COLOR ############# */
+header nav .nav-shop-font-color{
+    color: #ffffff;
+}
+
+/* ############# HEADER > NAV > .NAV-SHOP-FONT-COLOR.ACTIVE ############# */
+header nav .nav-shop-font-color.active{
+    color: var(--golden);
+    border-color: var(--golden);
+}
+
+/* ############# HEADER > NAV > .PRODUCT-DETAILS-LOGO-COLOR ############# */
+header nav .product-details-logo-color{
+    color: var(--golden);
+}
+
+/* ############# NAV ############# */
+nav{
+    padding: 0px 50px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1000;
+    transition: all .7s ease-in-out;
+}
+
+/* ############# NAV > UL ############# */
+nav ul{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ############# NAV > UL > LI ############# */
+nav ul li{
+    list-style: none;
+    padding: 0 16px;
+}
+
+/* ############# NAV > UL.NAV-SEARCH-CART-ICONS > LI > A > I ############# */
+nav ul.nav-search-cart-icons{
+    justify-content: flex-end;
+}
+
+/* ############# NAV > UL.NAV-SEARCH-CART-ICONS > LI > A > I ############# */
+nav ul.nav-search-cart-icons li a i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* ############# NAV > .LOGO ############# */
+nav .logo{
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    padding: 14px 18px;
+    transition: all .2s ease-in-out;
+    font-family: 'David Libre', serif;
+    font-weight: lighter;
+    font-size: 5.5rem;
+    letter-spacing: 5px;
+    color: var(--darkgray);
+}
+
+/* ############# NAV > H1.LOGO.CART-LOGO-COLOR ############# */
+h1.cart-logo-color{
+    color: #ffffff;
+}
+
+/* ############# .NAV-FONT-STYLE ############# */
+.nav-font-style{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--darkgray);
+    padding: 7px 0px;
+    font-weight: 600;
+}
+
+/* ############# .NAV-FONT-STYLE.ACTIVE ############# */
+.nav-font-style.active{
+    border-bottom: 2px solid var(--darkgray);
+}
+
+/* ############# .MOBILE-NAV-BTN ############# */
+.mobile-nav-btn{
+    display: none;
+    width: 300px;
+}
+
+/* ############# .MOBILE-NAV-ICON[name="mobile-nav-close"] ############# */
+.mobile-nav-icon[name="mobile-nav-close"]{
+    display: none;
+}
+
+/* ############# .MOBILE-NAV-BTN > I ############# */
+.mobile-nav-btn i{
+    color: var(--darkgray);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* ############# NAV.STICKY ############# */
+nav.sticky{
+    padding: 0px 30px;
+    background-color: rgba(20, 20, 20, .99);
+    border-bottom: 3px solid var(--golden);
+}
+
+/* ############# (WHEN) NAV.STICKY | (DO CHANGES IN) .LOGO ############# */
+nav.sticky .logo{
+    font-size: 4.5rem;
+    transition: all .3s ease-in-out;
+    color: var(--golden);
+    padding: 8px;
+    background-color: var(--darkgray);
+    border-radius: 0;
+}
+
+/* ############# (WHEN) NAV.STICKY | (DO CHANGES IN) .NAV-FONT-STYLE ############# */
+nav.sticky .nav-font-style{
+    transition: all .3s ease-in-out;
+    color: var(--golden);
+}
+
+/* ############# (WHEN) NAV.STICKY | (DO CHANGES IN) .ACTIVE ############# */
+nav.sticky .active{
+    transition: all .3s ease-in-out;
+    border-color: var(--golden);
+}
+
+/* ############# .PRIMARY-BUTTON ############# */
+.primary-button{
+    padding: 9px 28px;
+    margin: 10px 10px;
+    background-color: var(--golden);
+    border: 3px solid var(--golden);
+    color: var(--darkgray);
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+/* ############# .SECONDARY-BUTTON ############# */
+.secondary-button{
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 9px 28px;
+    margin: 10px 10px;
+    color: var(--darkgray);
+    border: 3px solid var(--darkgray);
+    text-transform: capitalize;
+    font-family: 'PT Serif', serif;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ############# I.ICON-LIGHT ############# */
+i.icon-light{
+    font-size: 18px;
+    color: var(--golden);
+}
+
+/* ############# I.ICON-DARK ############# */
+i.icon-dark{
+    font-size: 18px;
+    color: var(--darkgray);
+}
+
+/* ############# .DARK-GRAY-LINEAR ############# */
+.dark-gray-linear{
+    background: linear-gradient(242.19deg, #252525 52.02%, var(--darkgray) 91.34%);
+}
+
+/* ############# .GOLDEN-LINEAR ############# */
+.golden-linear{
+    background: radial-gradient(49.65% 92.21% at 49.82% 49.67%, #FFB035 0%, var(--golden) 100%);
+}
+
+/* ############# SECTION.CONTAINER ############# */
+section.container{
+    padding: 80px 40px;
+}
+
+/* ############# .GLODEN-HEADING ############# */
+.golden-heading{
+    text-transform: capitalize;
+    font-family: 'PT Serif';
+    font-weight: lighter;
+    font-size: 4.4rem;
+    color: var(--golden);
+}
+
+/* ############# .DARK-HEADING ############# */
+.dark-heading{
+    text-transform: capitalize;
+    font-family: 'PT Serif';
+    /* font-weight: lighter; */
+    font-size: 4.4rem;
+    color: var(--darkgray);
+}
+
+/* ############# .light-HEADING ############# */
+.light-heading{
+    text-transform: capitalize;
+    font-family: 'PT Serif';
+    font-size: 4.4rem;
+    color: #eee;
+}
+
+/* ############# .PRODUCTS ############# */
+.products{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    place-items: center center;
+}
+
+/* ############# .PRODUCT-LIGHT ############# */
+.product-light{
+    background: var(--golden);
+    box-shadow: 0 3px 0 var(--darkgray) , 4px 4px 10px rgba(0, 0, 0, 0.45);
+    color: var(--darkgray);    
+}
+
+/* ############# .PRODUCT-DARK ############# */
+.product-dark{
+    background: var(--darkgray);
+    box-shadow: 0 3px 0 var(--golden) , 4px 4px 10px rgba(0, 0, 0, 0.45);
+    color: var(--golden);    
+}
+
+/* ############# .PRODUCT ############# */
+.product{
+    margin: 10px 0;
+    border-radius: 20px;
+    width: 215px;
+    height: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ############# .PRODUCT-IMAGE ############# */
+.product-image{
+    width: 100%;
+    height: 87%;
+    position: relative;
+    padding: 7px 0;
+}
+
+/* ############# .PRODUCT-IMAGE IMG ############# */
+.product-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ############# .PRODUCT-INFO ############# */
+.product-info{
+    display: flex;
+    padding: 0px 20px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ############# .PRICE-TEXT-STYLE-LIGHT ############# */
+.price-text-style-light{
+    font-family: 'PT Serif';
+    font-size: 1.8rem;
+    color: var(--golden);
+}
+
+/* ############# .PRICE-TEXT-STYLE-DARK ############# */
+.price-text-style-dark{
+    font-family: 'PT Serif';
+    font-size: 1.8rem;
+    color: var(--darkgray)
+}
+
+/* ############# .SALE-TAG ############# */
+.sale-tag{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0px 18px 0px 20px;
+    background-color: #ff0000;
+    padding: 4px 12px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 1px;
+    animation: sale 2s infinite;
+}
+
+/* ############# .SALE-TAG ANIMATION ############# */
+@keyframes sale{
+    0%{
+        background-color: #ff0000;
+    }
+    50%{
+        background-color: #ffffff;
+        color: #ff0000;
+    }
+    100%{
+        color: #fff;
+        background-color: #ff0000;
+    }
+}
+
+/* ############# .NEW-TAG ############# */
+.new-tag{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 18px 0px 20px 0px;
+    background-color: #ffffff;
+    padding: 4px 12px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 1px;
+    
+}
+
+/* ############# .VIEW-ALL ############# */
+.view-all{
+    float: right;
+    display:flex;
+    text-decoration: none;
+    align-items: center;
+}
+
+/* ############# .VIEW-ALL P ############# */
+.view-all p{
+    font-size: 1.4rem;
+    text-decoration: underline;
+    font-family: 'PT Serif';
+    padding: 7px;
+    font-weight: bold;
+}
+
+/* ############# .P-LIGHT ############# */
+.p-light{
+    color: var(--golden);
+}
+
+/* ############# .P-DARK ############# */
+.p-dark{
+    color: var(--darkgray);
+}
+ 
+/* ############# SECTION.CONTAINER.YOU-MAY-ALSO-LIKE > H1 ############# */
+section.container.you-may-also-like
+h1{
+    text-align: center;
+}
+
+/* ############# SECTION.NEWSLETTER ############# */
+section.newsletter{
+    padding: 150px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+/* ############# SECTION.NEWSLETTER::BEFORE ############# */
+section.newsletter::before{
+    z-index: -1;
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url('../images/newsletter.png');
+    filter: grayscale(100%);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* ############# SECTION.NEWSLETTER > .NEWSLETTER-HEADING ############# */
+section.newsletter .newsletter-heading{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: light;
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* ############# SECTION.NEWSLETTER > .NEWSLETTER-SLOGAN ############# */
+section.newsletter .newsletter-slogan{
+    font-family: 'PT Serif';
+    text-align: center;
+    font-weight: light;
+    font-size: 1.7rem;
+    text-transform: lowercase;
+    margin: 10px 0 35px;
+    letter-spacing: 1px;
+}
+
+/* ############# SECTION.NEWSLETTER > .NEWSLETTER-FORM ############# */
+section.newsletter .newsletter-form {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+/* ############# SECTION.NEWSLETTER > .NEWSLETTER-FORM > .NEWSLETTER-INPUT ############# */
+section.newsletter .newsletter-form .newsletter-input {
+    font-size: 1.4rem;
+    color: #ffffff;
+    padding: 10px 5px; 
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+}
+
+/* ############# SECTION.NEWSLETTER > .NEWSLETTER-FORM > .NEWSLETTER-SEND-BTN ############# */
+section.newsletter .newsletter-form .newsletter-send-btn{
+    margin: 0 15px;
+    color: #ffffff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* ############# FOOTER ############# */
+footer{
+    padding: 25px 10px;
+    border-top: 3px solid var(--golden);
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #cccccc;
+}
+
+/* ############# FOOTER > A ############# */
+footer a{
+    color: #666666;
+    transition: all .2s ease-in-out;
+
+}
+
+/* ############# FOOTER > A:HOVER ############# */
+footer a:hover{
+    color: #cccccc;
+
+}
+
+/* ############# FOOTER > .FOOTER-ICONS ############# */
+footer .footer-icons{
+    margin: 18px 5px;
+}
+
+/* ############# FOOTER > .FOOTER-ICONS > A > I ############# */
+footer .footer-icons a i{
+    font-size: 2.2rem;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* ############# FOOTER > .FOOTER-MENU ############# */
+footer .footer-menu{
+    margin: 18px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+/* ############# FOOTER > .FOOTER-MENU > A ############# */
+footer .footer-menu a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* ############# FOOTER > .FOOTER-COPYRIGHT ############# */
+footer .footer-copyright{
+    margin: 18px 5px;
+}
+
+/* ############# FOOTER > .FOOTER-COPYRIGHT > P.COPYRIGHT ############# */
+footer .footer-copyright p.copyright{
+    margin: 5px;
+    padding: 5px;
+}
+

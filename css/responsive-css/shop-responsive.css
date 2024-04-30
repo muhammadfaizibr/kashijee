@@ -1,0 +1,9 @@
+@media(max-width: 650px){
+    /* ############# HEADER > NAV > .SHOP-LOGO-COLOR ############# */
+    header nav .shop-logo-color{
+        width: fit-content;
+        color: #fff;
+        background-color: transparent;
+        border-radius: 0px;
+    }
+}

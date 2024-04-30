@@ -1,0 +1,172 @@
+/* ############# H1.CART-LOGO-COLOR ############# */
+h1.cart-logo-color{
+    color: #ffffff;
+}
+
+/* ############# SECTION.CONTAINER.CART > .CART-TABLE ############# */
+section.container.cart{
+    padding: 120px 0 0 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* ############# SECTION.CONTAINER.CART > .CART-TABLE ############# */
+section.container.cart ul{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+/* ############# SECTION.CONTAINER.CART > .CART-TABLE ############# */
+section.container.cart ul h1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+/* ############# SECTION.CONTAINER > .CART > LI ############# */
+section.container.cart li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkgray);
+    color: var(--light);
+    list-style: none;
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 15px 15px;
+    border: 2px solid #202020;
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI ############# */
+section.container.cart li:nth-last-child(1){
+    border-bottom: none;
+}
+
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV ############# */
+section.container.cart li div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-IMAGE ############# */
+section.container.cart li div.cart-product-image{
+    /* background-color: aqua; */
+    width: 50%;
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-IMAGE > DIV.CART-IMAGE-CONTAINER ############# */
+section.container.cart li div.cart-product-image div.cart-image-container{
+    height: 60px;
+    width: 60px;
+    /* background-color: brown; */
+    position: relative;
+    border: 2px solid var(--light);
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-IMAGE > DIV.CART-IMAGE-CONTAINER > IMG ############# */
+section.container.cart li div.cart-product-image div.cart-image-container img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-NAME ############# */
+section.container.cart li div.cart-product-name{
+    width: 150%;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS ############# */
+section.container.cart .product-quantity{
+    width: 30%;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS ############# */
+section.container.cart .product-quantity .quantity-options{
+    display: flex;
+}
+
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > QUANTITY-OPTION ############# */
+section.container.cart .product-quantity .quantity-options .quantity-option{
+    padding: 15px;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > QUANTITY-OPTION ############# */
+section.container.cart .product-quantity .quantity-options .current-quantities{
+    padding: 5px;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > DECREASE-QUANTITY ############# */
+section.container.cart .product-quantity .quantity-options .decrease-quantity{
+    background-color: #202020;
+    font-size: 1.0rem;
+    cursor: pointer;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > INCREASE-QUANTITY ############# */
+section.container.cart .product-quantity .quantity-options .increase-quantity{
+    font-size: 1.0rem;
+    background-color: #202020;
+    cursor: pointer;
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-NAME ############# */
+section.container.cart li div.cart-product-delete{
+    padding: 15px;
+    color: #ff0000;
+    width: fit-content;
+    cursor: pointer;
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-PRICE ############# */
+section.container.cart li div.cart-product-price{
+    padding: 2px;
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-PRICE ############# */
+section.container.cart .total{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: var(--darkgray);
+}
+
+/* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-PRICE ############# */
+section.container.cart .total h1{
+    background-color: var(--darkgray);
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    padding: 0;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .CART-BUTTONS ############# */
+section.container.cart ul .cart-buttons{
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .CART-BUTTONS > CHECKOUT-BTN ############# */
+section.container.cart ul .cart-buttons .checkout-btn{
+    border: 2px solid var(--golden);
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .CART-BUTTONS > .CLEAR-CART-BTN ############# */
+section.container.cart ul .cart-buttons .clear-cart-btn{
+    /* border-color: var(--golden); */
+    color: var(--golden);
+    background-color: var(--darkgray);
+}

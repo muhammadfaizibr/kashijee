@@ -1,0 +1,291 @@
+/* ############# HEADER ############# */
+header{
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-image: url("../images/home-header-background.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ############# HEADER > .HEADER-CONTENT ############# */
+header .header-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 200px 0 180px;
+    height: 100%;
+}
+
+/* ############# HEADER > .HEADER-CONTENT > .HEADING ############# */
+header .header-content .heading{
+    font-size: 5.5rem;
+    text-align: center;
+    text-decoration: underline;
+    width: 40%;
+    color: var(--darkgray);
+    font-weight: lighter;
+    line-height: 150%;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+}
+
+/* ############# HEADER > .HEADER-CONTENT > .HEADER-BUTTONS ############# */
+header .header-content .header-buttons{
+    margin: 20px 0 0 0;
+    display: flex;
+}
+
+/* ############# SECTION.PROMOTION ############# */
+section.promotion{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    background-color: #0E0E0E;
+}
+
+/* ############# SECTION.PROMOTION ############# */
+section.promotion img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    user-select: none;
+}
+section.promotion .promotion-uppper-layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+/* ############# SECTION.PROMOTION::BEFORE #############
+section.promotion::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: saturate(70%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25) , rgba(0, 0, 0, 0.25)), url('../images/home-promotion.jpg');
+} */
+/* ############# SECTION.SOCIAL ############# */
+section.social{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM ############# */
+section.social .social-item{
+    width: 430px;
+    height: 400px;
+    background-color: #ff0000;
+    flex: 1 1 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO ############# */
+section.social .social-item .social-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 45%;
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-BRAND-ICON ############# */
+section.social .social-item .social-info .social-brand-icon{
+    font-size: 7rem;
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-BRAND-ICON.YOUTUBE-ICON ############# */
+section.social .social-item .social-info .social-brand-icon.youtube-icon{
+    color: #ff0000;
+}
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-BRAND-ICON.FACEBOOK-ICON & .INSTAGRAM-ICON############# */
+section.social .social-item .social-info .social-brand-icon.facebook-icon,
+section.social .social-item .social-info .social-brand-icon.instagram-icon{
+    color: #ffffff;
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-STATS ############# */
+section.social .social-item .social-info .social-stats{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-STATS.SOCIAL-STATS-FACEBOOK & .SOCIAL-STATS-INSTAGRAM ############# */
+section.social .social-item .social-info .social-stats.social-stats-facebook,
+section.social .social-item .social-info .social-stats.social-stats-instagram{
+    color: #ffffff;
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-STATS.SOCIAL-STATS-YOUTUBE ############# */
+section.social .social-item .social-info .social-stats.social-stats-youtube{
+    color: #ff0000;
+}
+
+/* ############# SECTION.SOCIAL .FACEBOOK ############# */
+section.social .facebook{
+    background-color: #0057FF;
+}
+
+/* ############# SECTION.SOCIAL .YOUTUBE ############# */
+section.social .youtube{
+    background-color: #ffffff;
+}
+
+/* ############# SECTION.SOCIAL .INSTAGRAM ############# */
+section.social .instagram{
+    background-color: #FD015C;
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-STATS .STATS-COUNTS ############# */
+section.social .social-item .social-info .social-stats .stats-count{
+    font-size: 3rem;
+    font-family: 'PT Serif';
+}
+
+/* ############# SECTION.SOCIAL > .SOCIAL-ITEM > .SOCIAL-INFO > .SOCIAL-STATS .STATS-METER ############# */
+section.social .social-item .social-info .social-stats  .stats-meter{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* ############# SECTION.HADITH ############# */
+section.hadith{
+    padding: 160px 80px;
+    background-image: url('../images/hadith-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* ############# SECTION.HADITH > HADITH-HEADING ############# */
+section.hadith .hadith-heading{
+    font-family: 'PT Serif';
+    font-size: 3.7rem;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+/* ############# SECTION.HADITH > HADITH-HEADING > SPAN ############# */
+section.hadith .hadith-heading span{
+    font-style: italic;
+    color: var(--golden);
+}
+
+/* ############# SECTION.HADITH > HADITH-NARRATION ############# */
+section.hadith .hadith-narration{
+    font-weight: 300;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin: 15px 0 50px;
+}
+
+/* ############# SECTION.HADITH > .HADITH-CONTENT ############# */
+section.hadith .hadith-content{
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    line-height: 2.2rem;
+}
+
+/* ############# SECTION.HADITH > .HADITH-CONTENT > SPAN ############# */
+section.hadith .hadith-content span{
+    font-weight: 600;
+    font-style: italic;
+    color: var(--golden);
+}
+
+/* ############# SECTION.COLLECTION-SLIDER ############# */
+section.collection-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ############# SECTION.ABOUT ############# */
+section.about{
+    padding: 120px 80px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url('../images/home-about-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ############# SECTION.ABOUT > .ABOUT-CONTENT ############# */
+section.about .about-content{
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--golden);
+    text-align: center;
+    /* width: 70%; */
+    margin: 40px;
+    line-height: 40px;
+}
+
+/* ############# SECTION.TESTIMONIALS ############# */
+section.testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* ############# SECTION.TESTIMONIALS > .REVIEWS ############# */
+section.testimonials .reviews{
+    display: flex;
+    margin: 30px 0;
+}
+
+section.testimonials .reviews .review{
+    box-shadow: 0 -5px 0 var(--golden);
+    margin: 15px;
+    background-color: #0E0E0E;
+    padding: 30px;
+    width: 480px;
+    color: var(--golden);
+    text-transform: capitalize;
+    font-family: 'PT Serif';
+}
+
+section.testimonials .reviews .review .reviewer-name{
+    font-size: 3.5rem;
+}
+
+section.testimonials .reviews .review .reviewer-location{
+    font-size: 1.4rem;
+    margin: 2px 0 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    letter-spacing: .5px;
+}
+
+section.testimonials .reviews .review .review-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}

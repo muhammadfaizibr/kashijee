@@ -1,0 +1,59 @@
+/* ############# HEADER > NAV > .SHOP-LOGO-COLOR ############# */
+header nav .shop-logo-color{
+    text-align: center;
+    width: 170px;
+    color: var(--darkgray);
+    background-color: var(--golden);
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+/* ############# HEADER > .COLLECTIONS ############# */
+header .collections{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+/* ############# HEADER > .COLLECTIONS > COLLECTION ############# */
+header .collections .collection{
+    transition: all .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 430px;
+    height: 580px;
+    flex: 1 1 450px;
+    background-color: var(--golden);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+    font-size: 4.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    border-bottom: 4px solid transparent;
+    border-left: 2px solid var(--golden);
+    background-size: cover; background-position: center center; background-repeat: no-repeat;
+}
+
+/* ############# HEADER > .COLLECTIONS > COLLECTION ############# */
+header .collections .collection:nth-child(odd){
+    border-right: 2px solid var(--golden);
+    border-left: none;
+}
+/* ############# HEADER > .COLLECTIONS > .COLLECTION.MEN-COLLECTION:HOVER ############# */
+header .collections .collection:hover{
+    transition: all .2s ease-in-out;
+    transform:rotate(3deg) scale(0.8);
+    cursor: pointer;
+}
+
+/* ############# HEADER > .COLLECTIONS > COLLECTION > SPAN ############# */
+header .collections .collection span{
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: italic;
+    padding: 0 20px;
+    letter-spacing: 3px;
+}

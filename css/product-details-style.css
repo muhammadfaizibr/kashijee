@@ -1,0 +1,229 @@
+/* ############# SECTION.CONTAINER.SHOP-PRODUCT ############# */
+section.container.shop-product{
+    background: linear-gradient(270deg, var(--golden) 73%, var(--darkgray) 73%);
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS ############# */
+section.container .product-primary-details{
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: green; */
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES ############# */
+section.container .product-primary-details .product-images{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE ############# */
+section.container .product-primary-details .product-images .primary-product-image{
+    height: 440px;
+    background: var(--darkgray);
+    /* border: 3px solid var(--golden); */
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.45);
+    border-radius: 20px;
+    position: relative;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > PRIMARY-PRODUCT-IMAGE > PRIMARY-PRODUCT-IMAGE-IMG ############# */
+section.container .product-primary-details .product-images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES ############# */
+section.container .product-primary-details .product-images .other-images{
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+section.container .product-primary-details .product-images .other-images .other-image{
+    width: 27%;
+    height: 90px;
+    margin: 15px 0px 10px;
+    background: var(--darkgray);
+    /* box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.55), 3px 3px 8px rgba(0, 0, 0, 0.55); */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    /* border: 3px solid var(--golden); */
+    filter: brightness(50%);
+    transition: .2s ease;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-IMAGES > OTHER-IMAGES > .OTHER-IMAGE ############# */
+section.container .product-primary-details .product-images .other-images .other-image:hover{
+    transition: .2s ease;
+    cursor: pointer;
+    filter: brightness(100%);
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS ############# */
+section.container .product-primary-details .product-details{
+    margin: 15px 0px 15px 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-shrink: 2;
+    /* background-color: lightcoral; */
+    font-weight: bold;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-NAME ############# */
+section.container .product-primary-details .product-details .product-name{
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-family: 'PT Serif';
+    font-size: 2.6rem;
+    color: var(--darkgray);
+    text-decoration: underline;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-SIZE ############# */
+section.container .product-primary-details .product-details .product-size{
+    color: var(--darkgray);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-SIZE > .SIZE-TEXT ############# */
+section.container .product-primary-details .product-details .product-size .size-text{
+    font-size: 1.65rem;
+    margin: 0px 10px 0 0;
+    letter-spacing: .5px;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-SIZE > .SIZE-CONTAINER ############# */
+section.container .product-primary-details .product-details .product-size .size-container{
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: var(--golden);
+    background-color: var(--darkgray);
+    cursor: pointer;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-SIZE-CHART ############# */
+section.container .product-primary-details .product-size-chart{
+    color: var(--darkgray);
+    font-size: 1.4rem;
+    text-decoration: underline;
+    font-family: 'Montserrat';
+    letter-spacing: 1px;
+    margin: 10px 0;
+    color: var(--darkgray);
+    width: fit-content;
+    font-weight: 600;
+}
+
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-PRICE ############# */
+section.container .product-primary-details .product-details .product-price{
+    margin: 10px 0;
+    font-family: 'PT Serif';
+    font-size: 3rem;
+    color: var(--darkgray);
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY ############# */
+section.container .product-primary-details .product-details .product-quantity{
+    color: var(--darkgray);
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-TEXT ############# */
+section.container .product-primary-details .product-details .product-quantity .quantity-text{
+    font-size: 1.65rem;
+    margin: 0px 20px 0 0;
+    letter-spacing: .5px;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS ############# */
+section.container .product-primary-details .product-details .product-quantity .quantity-options{
+    display: flex;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > QUANTITY-OPTION ############# */
+section.container .product-primary-details .product-details .product-quantity .quantity-options .quantity-option{
+    padding: 10px 15px;
+    background-color: var(--darkgray);
+    font-size: 1.4rem;
+    color: var(--golden);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > DECREASE-QUANTITY ############# */
+section.container .product-primary-details .product-details .product-quantity .quantity-options .decrease-quantity{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > INCREASE-QUANTITY ############# */
+section.container .product-primary-details .product-details .product-quantity .quantity-options .increase-quantity{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .SHOP-BUTTONS ############# */
+section.container .product-primary-details .product-details .shop-buttons{
+    margin: 10px 0;
+    display: flex;
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .SHOP-BUTTONS > BUY-NOW-BTN ############# */
+section.container .product-primary-details .product-details .shop-buttons .buy-now-btn{
+    border: 2px solid var(--darkgray);
+}
+
+/* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .SHOP-BUTTONS > .ADD-TO-CART-BTN ############# */
+section.container .product-primary-details .product-details .shop-buttons .add-to-cart-btn{
+    /* border-color: var(--golden); */
+    color: var(--golden);
+    background-color: var(--darkgray);
+}
+
+/* ############# SECTION.CONTAINER.DESCRITPTION ############# */
+section.container.description{
+    background-color: var(--darkgray);
+    border-top: 2px solid var(--light);
+    border-bottom: 2px solid var(--light);
+}
+
+/* ############# SECTION.CONTAINER.DESCRITPTION > .DETAILS ############# */
+section.container.description .details{
+   color: var(--light);
+   font-size: 1.8rem;
+}
+
+/* ############# SECTION.CONTAINER.DESCRITPTION > .DESCRIPTION ############# */
+section.container.description .description{
+    color: var(--light);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}

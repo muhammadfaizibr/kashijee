@@ -1,0 +1,168 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- #################### LINKING FONTS CSS #################### -->
+    <link rel="stylesheet" href="../css/fonts.css">
+    <!-- #################### LINKING PRELOADER CSS #################### -->
+    <link rel="stylesheet" href="../css/preloader.css">
+    <!-- #################### LINKING GLOBAL CSS #################### -->
+    <link rel="stylesheet" href="../css/global.css">
+    <!-- #################### LINKING GLOBAL CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/global-responsive.css">
+    <!-- #################### LINKING NAV-RESPONSIVE CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/nav-responsive.css">
+    <!-- #################### LINKING CHECKOUT-STYLE CSS #################### -->
+    <link rel="stylesheet" href="../css/checkout-style.css">
+    <!-- #################### LINKING CHECKOUT-RESPONSIVE CSS #################### -->
+    <link rel="stylesheet" href="../css/responsive-css/checkout-responsive.css">
+    <!-- #################### FONT AWESOME CDN #################### -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- #################### AOS ON SCROLL CDN #################### -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Checkout - KashiJee</title>
+</head>
+
+<body>
+    <!-- #################### PRELOADER #################### -->
+    <div class="preloader">
+        <div class="preloader-text"> KJ
+        </div>
+    </div>
+    <!-- #################### SEARCH-OUTSIDE-BAR #################### -->
+    <div class="search-outside-container">
+        <!-- #################### SEARCH-BAR #################### -->
+        <div class="search-bar">
+            <form action="" id="search-form" autocomplete="off">
+                <input type="text" class="input-search-bar" name="search" placeholder="Search">
+            </form>
+            <i class="fa-solid fa-close search-close-btn" id="search-close"></i>
+        </div>
+    </div>
+    <!-- #################### HEADER #################### -->
+    <header>
+        <!-- #################### NAVBAR #################### -->
+        <nav class="nav" data-aos="fade-up" data-aos-duration="500">
+            <!-- #################### PRIMARY-NAVIGATION #################### -->
+            <div class="mobile-nav-btn">
+                <i name="mobile-nav-hamburger"
+                    class="fa-solid fa-bars-staggered mobile-nav-icon nav-font-style nav-shop-font-color"></i>
+                <i name="mobile-nav-close"
+                    class="fa-solid fa-angle-left mobile-nav-icon nav-font-style nav-shop-font-color"></i>
+            </div>
+            <ul class="nav-primary-menu">
+                <li><a class="nav-font-style nav-shop-font-color active" href="/html/home.html">Home</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/shop.html">Shop</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/collections.html">About</a></li>
+                <li><a class="nav-font-style nav-shop-font-color" href="/html/collections.html">Contact</a></li>
+            </ul>
+            <!-- #################### LOGO #################### -->
+            <h1 class="logo cart-logo-color">KJ</h1>
+            <!-- #################### SECONDARY-NAVIGATION #################### -->
+            <ul class="nav-search-cart-icons">
+                <li><a class="nav-font-style nav-shop-font-color" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </li>
+                <li><a class="nav-font-style nav-shop-font-color"><i class="fa-solid fa-magnifying-glass"
+                            id="search-btn"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- #################### CHECKKOUT #################### -->
+
+    <section class="container checkout">
+        <h1 class="golden-heading" data-aos="fade-right"  data-aos-duration="500">Checkout</h1>
+        <form action="" id="checkout-form">
+            <div class="info general-shipping-info" data-aos="flip-right"  data-aos-duration="500">
+                <div class="general-info">
+                    <h3 class="checkout-font-style">General Info</h3>
+                    <div class="multiple-input-cover">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email Name">
+                </div>
+
+                <div class="shipping-info">
+                    <h3 class="checkout-font-style">Shipping Info</h3>
+                    <input type="text" placeholder="Country">
+                    <div class="multiple-input-cover">
+                        <input type="text" placeholder="Province">
+                        <input type="text" placeholder="City">
+                    </div>
+
+                    <div class="multiple-input-cover">
+                        <input type="text" placeholder="Phone">
+                        <input type="text" placeholder="Postal Code">
+                    </div>
+
+                    <input type="text" placeholder="Address: Unit 7 Block E Al-Fatima Plaza Floor 3 Flat #45">
+                </div>
+            </div>
+            <div class="info bill-billing-info" data-aos="flip-left"  data-aos-duration="500">
+                <div class="bill light-heading">
+                    Total: PKR 2420.00
+                    <div class="bill-sub-details">
+                        <div class="bill-sub-total-details">
+                            <h3 class="checkout-font-style">Total Amount: 2200</h3>
+                            <h3 class="checkout-font-style">Shipping Charges: 220</h3>
+                        </div>
+                        <div class="bill-sub-items-details">
+                            <h3 class="checkout-font-style">Total Items: 2</h3>
+                            <h3 class="checkout-font-style">Total Quantites: 3</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="billing-info">
+                    <h3 class="checkout-font-style">Billing Info</h3>
+                    <input type="text" placeholder="Country">
+                    <div class="multiple-input-cover">
+                        <input type="text" placeholder="Province">
+                        <input type="text" placeholder="City">
+                    </div>
+
+                    <div class="multiple-input-cover">
+                        <input type="text" placeholder="Phone">
+                        <input type="text" placeholder="Postal Code">
+                    </div>
+
+                    <input type="text" placeholder="Address: Unit 7 Block E Al-Fatima Plaza Floor 3 Flat #45">
+                    <h3 class="checkout-font-style checkout-note">Note: After clicking on Checkout you will be redirected <a href=""> PayFast (Payment Gateway Site) </a>to complete your payment securely! </h3>
+                    <button type="submit" form="checkout-form" value="checkout" class="primary-button">Checkout</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <!-- #################### FOOTER #################### -->
+    <footer>
+        <div class="footer-icons" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="140">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="footer-menu" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-offset="80">
+            <a href="">Shop</a>
+            <a href="">Contact</a>
+            <a href="">Sale</a>
+            <a href="">Refund</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms & Conditions</a>
+        </div>
+        <div class="footer-copyright" data-aos="fade-zoom-in" data-aos-duration="00" data-aos-offset="50">
+            <p class="copyright">© 2022, KASHIJEE</p>
+        </div>
+    </footer>
+    <!-- #################### JAVASCRIPT #################### -->
+    <script src="../js/nav.js"></script>
+    <!-- #################### AOS CDN #################### -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- #################### INCLUDING AOS #################### -->
+    <script src="../js/including_aos.js"></script>
+    <!-- #################### PRELOADER JS #################### -->
+    <script src="../js/preloader.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+@media(max-width: 1312px){
+    /* ############# HEADER > .HEADER-CONTENT > .HEADING ############# */
+    header .header-content .heading{
+        width: 52%;
+        font-size: 5.5rem;
+    }
+}
+
+@media(max-width: 1026px){
+    section.testimonials .reviews .review{
+        margin: 10px;
+        padding: 30px 20px;
+    }
+    section.testimonials .reviews .review .reviewer-name{
+        font-size: 2.8rem;
+    }
+    
+    section.testimonials .reviews .review .reviewer-location{
+        font-size: 1.4rem;
+    }
+    
+    section.testimonials .reviews .review .review-content{
+        font-size: 1.4rem;
+    }
+}
+
+@media(max-width: 1000px){
+
+    section.testimonials .reviews{
+        flex-direction: column;
+    }
+    section.testimonials .reviews .review{
+        margin: 20px 0px;
+    }
+}
+
+@media(max-width: 962px){ 
+
+    /* ############# HEADER > .HEADER-CONTENT > .HEADING ############# */
+    header .header-content .heading{
+        width: 65%;
+    }
+}
+
+@media(max-width: 812px){
+    /* ############ HEADER > .HEADER-CONTENT > .HEADER-BUTTONS ############# */ 
+    header .header-content .header-buttons{
+        margin: 20px 0 0 0;
+    }
+    /* ############# SECTION.PROMOTION ############# */
+    section.promotion{
+        height: 70%;
+    }
+
+    /* ############# SECTION.HADITH ############# */
+    section.hadith{
+        padding: 100px 80px;
+    }
+
+    /* ############# SECTION.HADITH ############# */
+    section.about{
+            padding: 100px 80px;
+    }
+    
+    /* ############# SECTION.ABOUT > .ABOUT-CONTENT ############# */
+    section.about .about-content{
+        margin: 20px;
+    }
+}
+
+@media(max-width: 700px){
+    /* ############# SECTION.PROMOTION ############# */
+    section.promotion{
+        height: 55%;
+    }
+
+    /* ############# SECTION.HADITH ############# */
+    section.hadith{
+        padding: 50px 40px;
+    }
+
+    /* ############# SECTION.HADITH ############# */
+    section.about{
+            padding: 50px 40px;
+    }
+    
+    /* ############# SECTION.ABOUT > .ABOUT-CONTENT ############# */
+    section.about .about-content{
+        margin: 20px 15px;
+    }
+}
+
+@media(max-width: 550px){
+    /* ############# HEADER > .HEADER-CONTENT > .HEADING ############# */
+    header .header-content .heading{
+        width: 80%;
+        font-size: 5rem;
+    }
+    /* ############# SECTION.PROMOTION ############# */
+    section.promotion{
+        height: 48%;
+    }
+}
+
+@media(max-width: 505px){
+    /* ############# SECTION.CONTAINER ############# */
+    section.container{
+        padding: 80px 20px;
+    }
+    /* ############# HEADER > .HEADER-CONTENT > .HEADING ############# */
+    header .header-content .heading{
+        font-size: 4.5rem;
+    }
+
+    section.testimonials .reviews .review{
+        margin: 10px 0;
+        width: auto;
+    }
+    section.testimonials .reviews .review .reviewer-name{
+        font-size: 3.2rem;
+    }
+    
+    section.testimonials .reviews .review .reviewer-location{
+        font-size: 1.5rem;
+    }
+    
+    section.testimonials .reviews .review .review-content{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 480px){
+    /* ############# SECTION.PROMOTION ############# */
+    section.promotion{
+        height: 40%;
+    }
+    /* ############# SECTION.HADITH ############# */
+    section.hadith{
+        padding: 65px 25px;
+    }
+
+    /* ############# SECTION.HADITH ############# */
+    section.about{
+            padding: 95px 20px;
+    }
+    
+    /* ############# SECTION.ABOUT > .ABOUT-CONTENT ############# */
+    section.about .about-content{
+        margin: 20px 10px;
+    }
+}
+
+@media(max-width: 400px){
+    /* ############# HEADER > .HEADER-CONTENT > .HEADING ############# */
+    header .header-content .heading{
+        width: 90%;
+        font-size: 4rem;
+    }
+    /* ############# SECTION.ABOUT > .ABOUT-CONTENT ############# */
+    section.about .about-content{
+        line-height: 33px;
+    }
+}
+
+@media(max-width: 350px){
+    /* ############ HEADER > .HEADER-CONTENT > .HEADER-BUTTONS ############# */ 
+    header .header-content .header-buttons{
+        flex-direction: column;
+        margin: 10px 0 -70px 0;
+    }
+
+    /* ############# SECTION.ABOUT ############# */
+    section.about{
+        padding: 95px 10px;
+    }
+
+    /* ############# SECTION.ABOUT > .ABOUT-CONTENT ############# */
+    section.about .about-content{
+        line-height: 28px;
+    }
+}

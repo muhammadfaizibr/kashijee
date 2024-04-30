@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .search{
+            position: absolute;
+            width: 100%;
+            background-color: rgb(255, 0, 0);
+            height: 50px;
+            visibility: hidden;
+            transform: translateY(-100%);
+            transition: all .2s linear;
+        }
+        .mob-nav-active{
+            transform: translateY(0%);
+            opacity: 1;
+            transition: all .2s linear;
+            visibility: visible;
+        }
+        .container{
+            width: 100%;
+            height: 50vh;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="search"><input type="text" name="" id=""></div>
+    <div class="container"></div>
+    <button id="search" value="sdfsfsdf">sdfdf</button>
+</body>
+<script>
+    document.querySelector('#search').addEventListener('click', ()=>{
+        document.querySelector('.search').classList.toggle('mob-nav-active')
+    }
+    )
+</script>
+</html>

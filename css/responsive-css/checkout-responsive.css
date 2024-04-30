@@ -1,0 +1,61 @@
+@media (max-width: 1200px) {
+    section.container.checkout{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+}
+
+@media (max-width: 820px) {
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form .info h3.checkout-font-style{
+        font-size: 1.45rem;
+    }
+}
+
+@media (max-width: 770px) {
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form .info .general-info{
+        width: 100%;
+    }
+
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form .info .shipping-info, section.container.checkout form .info .billing-info{
+        width: 100%;
+    }
+
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form .multiple-input-cover input{
+        width: 49%;
+    }
+
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form .info.bill-billing-info .bill{
+        width: 100%;
+    }
+}
+
+@media (max-width: 700px){
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form .info h3.checkout-font-style{
+        font-size: 1.53rem;
+    }
+}
+
+@media (max-width: 670px){
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form{
+        width: 100%;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ############# SECTION.CONTAINER.CHECKOUT ############# */
+    section.container.checkout form .info{
+        width: 100%;
+        margin: 0;
+    }
+
+}

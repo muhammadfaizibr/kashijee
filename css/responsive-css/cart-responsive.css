@@ -1,0 +1,76 @@
+@media (max-width: 850px){
+    /* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-IMAGE > DIV.CART-IMAGE-CONTAINER ############# */
+    section.container.cart li div.cart-product-image div.cart-image-container{
+        height: 45px;
+        border: 1.5px solid var(--light);
+        width: 45px;
+    }
+}
+
+@media (max-width: 420px){
+    /* ############# SECTION.CONTAINER.CART > .CART-TABLE ############# */
+    section.container.cart ul{
+        width: 100%;
+    }
+    /* ############# SECTION.CONTAINER > .CART > LI ############# */
+    section.container.cart li{
+        padding: 15px 0px;
+    }
+    /* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-IMAGE ############# */
+    section.container.cart li div.cart-product-image{
+        /* background-color: aqua; */
+        width: fit-content;
+    }    /* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-IMAGE > DIV.CART-IMAGE-CONTAINER ############# */
+    section.container.cart li div.cart-product-image div.cart-image-container{
+        height: 23px;
+        width: 23px;
+    }
+
+    /* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-NAME ############# */
+    section.container.cart li div.cart-product-delete{
+        width: fit-content;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > QUANTITY-OPTION ############# */
+    section.container.cart .product-quantity .quantity-options .quantity-option{
+        padding: 12px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > QUANTITY-OPTION ############# */
+    section.container.cart .product-quantity .quantity-options .current-quantities{
+        padding: 2px;
+    }
+
+}
+
+@media (max-width: 280px){
+    /* ############# SECTION.CONTAINER > .CART > LI ############# */
+    section.container.cart li{
+        flex-wrap: wrap;
+        padding: 10px;
+
+    }
+
+    /* ############# SECTION.CONTAINER > .CART > LI ############# */
+    section.container.cart li div{
+        margin: 2px 0;
+    }
+
+    /* ############# SECTION.CONTAINER > .CART > LI > DIV > DIV.CART-PRODUCT-IMAGE > DIV.CART-IMAGE-CONTAINER ############# */
+    section.container.cart li div.cart-product-image div.cart-image-container{
+        height: 40px;
+        width: 40px;
+    }
+
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > QUANTITY-OPTION ############# */
+    section.container.cart .product-quantity .quantity-options .quantity-option{
+        padding: 15px;
+    }
+
+    /* ############# SECTION.CONTAINER > .PRODUCT-PRIMARY-DETAILS > PRODUCT-DETAILS > .PRODUCT-QUANTITY > QUANTITY-OPTIONS > QUANTITY-OPTION ############# */
+    section.container.cart .product-quantity .quantity-options .current-quantities{
+        padding: 10px;
+    }
+
+}

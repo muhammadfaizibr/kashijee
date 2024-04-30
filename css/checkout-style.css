@@ -1,0 +1,134 @@
+/* ############# CHANGING PLACEHOLDER COLOR ############# */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(138, 138, 138);
+    opacity: 1; /* Firefox */
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 40px;
+    width: 100%;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form{
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info{
+    width: 50%;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info h3.checkout-font-style{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: var(--light);
+    font-weight: 600;
+    margin: 7px 0;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info .general-info{
+    margin: 14px 0;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info .shipping-info, section.container.checkout form .info .billing-info{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info input{
+    padding: 12px 14px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: #141414;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: var(--golden);
+    font-weight: 400;
+    margin: 7px 0 7px 0px;
+    border: none;
+    outline: none;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .multiple-input-cover{
+ display: flex;
+ justify-content: space-between;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .multiple-input-cover input{
+    width: 49%;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info.bill-billing-info .bill{
+    width: 95%;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 3rem;
+    text-align: left;
+    background-color: #141414;
+    color: var(--golden);
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info.bill-billing-info .bill-sub-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 0 0 ;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info.bill-billing-info .bill-sub-details .bill-sub-items-details .checkout-font-style{
+    text-align: right;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info.bill-billing-info h3.checkout-note{
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: red;
+    padding: 7px 0px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+/* ############# SECTION.CONTAINER.CHECKOUT ############# */
+section.container.checkout form .info.bill-billing-info h3.checkout-note a{
+    text-decoration: underline 2px;
+    color: var(--golden);
+}
+
+section.container.checkout form .info.bill-billing-info input[type="submit"]{
+    background-color:var(--golden);
+    color: #141414;
+    display: inline;
+    cursor: pointer;
+}
+
+
